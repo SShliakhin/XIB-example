@@ -13,6 +13,8 @@
 		5A20DABB26A5830A00EBEA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A20DAB926A5830A00EBEA38 /* Main.storyboard */; };
 		5A20DABD26A5830D00EBEA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A20DABC26A5830D00EBEA38 /* Assets.xcassets */; };
 		5A20DAC026A5830D00EBEA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A20DABE26A5830D00EBEA38 /* LaunchScreen.storyboard */; };
+		5A20DACC26A583E700EBEA38 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A20DACB26A583E700EBEA38 /* TestView.xib */; };
+		5A20DACE26A5858600EBEA38 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A20DACD26A5858600EBEA38 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5A20DABC26A5830D00EBEA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A20DABF26A5830D00EBEA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A20DAC126A5830D00EBEA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A20DACB26A583E700EBEA38 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		5A20DACD26A5858600EBEA38 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,21 @@
 				5A20DAB526A5830A00EBEA38 /* SceneDelegate.swift */,
 				5A20DAB726A5830A00EBEA38 /* ViewController.swift */,
 				5A20DAB926A5830A00EBEA38 /* Main.storyboard */,
+				5AFA326E26A9F5560089BD19 /* TestView */,
 				5A20DABC26A5830D00EBEA38 /* Assets.xcassets */,
 				5A20DABE26A5830D00EBEA38 /* LaunchScreen.storyboard */,
 				5A20DAC126A5830D00EBEA38 /* Info.plist */,
 			);
 			path = Xib2;
+			sourceTree = "<group>";
+		};
+		5AFA326E26A9F5560089BD19 /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				5A20DACD26A5858600EBEA38 /* TestView.swift */,
+				5A20DACB26A583E700EBEA38 /* TestView.xib */,
+			);
+			path = TestView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A20DACC26A583E700EBEA38 /* TestView.xib in Resources */,
 				5A20DAC026A5830D00EBEA38 /* LaunchScreen.storyboard in Resources */,
 				5A20DABD26A5830D00EBEA38 /* Assets.xcassets in Resources */,
 				5A20DABB26A5830A00EBEA38 /* Main.storyboard in Resources */,
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A20DACE26A5858600EBEA38 /* TestView.swift in Sources */,
 				5A20DAB826A5830A00EBEA38 /* ViewController.swift in Sources */,
 				5A20DAB426A5830A00EBEA38 /* AppDelegate.swift in Sources */,
 				5A20DAB626A5830A00EBEA38 /* SceneDelegate.swift in Sources */,
